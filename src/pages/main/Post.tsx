@@ -125,7 +125,7 @@ export const Post = (props: Props) => {
             borderBottomRightRadius: "5px",
           }}
         >
-          <PostTypography variant="subtitle2" sx={{ color: "rgb(170,50,140)" }}>
+          <PostTypography variant="subtitle2" sx={{ color: "rgb(170,50,140)",  textDecoration:"underline" }}>
             author: {post.username}
           </PostTypography>
           <Box sx={{ display: "flex", padding: "10px" }}>
