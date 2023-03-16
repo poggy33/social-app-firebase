@@ -99,7 +99,7 @@ export const Post = (props: Props) => {
   };
 
   return (
-    <Box sx={{ display: "flex", justifyContent: "center", minWidth: "100vw" }}>
+    <Box sx={{ display: "flex", justifyContent: "center"}}>
       <Box sx={{ width: "80vw", marginTop: "30px" }}>
         <PostTypography
           variant="h5"
